@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+/*border: 1px solid red;*/
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header-title {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+}
+
+.play-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    border-radius: 0px;
+    background-color: black;
+    height: 100%;
+    border-top: 1px solid rgb(92, 92, 92);
+}
+
+.animations {
+    height: 372px;
+    color: white;
+    align-self: center;
+}
+
+.sep-line {
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.score {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-direction: row;
+}
+
+.rock, .paper, .scissors {
+    display: flex;
+    align-items: flex-end;
+}
